@@ -1,0 +1,41 @@
++----------------------------------------------------------------------------+
+|  SING-BOX MOYE                                                     v1.7.0  |
+|  NETWORK MANAGEMENT CONSOLE                                                |
+|  Lightweight · State-Driven · Multi-Protocol Manager                       |
+|  HOST htch-runtime  NODE US-vps01                                          |
++----------------------------------------------------------------------------+
+|  # SYSTEM OVERVIEW  系统状态仪表盘                                         |
+|  CORE STATE * 运行中                 VERSION    v1.12.0                    |
+|  PROCESS    PID 101316               MEMORY     6.7MB                      |
+|  PUBLIC IP  203.0.113.9              LOCATION   US·LAX                     |
+|  ASN        AS64500                  PREFIX     US-vps01                   |
+|  NETWORK    * cubic                  WARP       * 已连接                   |
++----------------------------------------------------------------------------+
+|  # 01 PROTOCOL MANAGEMENT  协议矩阵                                        |
+|  [1/r]   VLESS-Reality    * 已启用  TCP · 443 · www.microsoft.com          |
+|  [2/h]   Hysteria 2       * 已启用  UDP · 8443 · Hop 10000-20000           |
+|  [3/t]   TUIC v5          o 未安装                                         |
+|  [4/a]   AnyTLS           o 未安装                                         |
+|  [5/p]   Cloudflare Argo  o 未安装                                         |
+|  [6/y]   SOCKS5           o 未安装                                         |
+|  [7/i]   一键全装         Reality·Hy2·TUIC·AnyTLS（不含 SOCKS5·Argo）      |
++----------------------------------------------------------------------------+
+|  # 02 NODE & SUBSCRIPTION  节点与订阅                                      |
+|  [8/e]   节点订阅中心     分享链接 · 二维码 · Mihomo · Sing-box            |
+|  [9/n]   节点命名规则     当前前缀: US-vps01                               |
++----------------------------------------------------------------------------+
+|  # 03 NETWORK & ROUTING  网络与路由                                        |
+|  [10/o]  系统网络调优     BBR · UDP 缓冲区 · 端口跳跃                      |
+|  [13/w]  WARP 与域名分流  解锁 AI 服务 · 域名走 WARP 出口                  |
++----------------------------------------------------------------------------+
+|  # 04 SYSTEM MANAGEMENT  系统管理                                          |
+|  [11/s]  内核服务维护     升级内核 · 重启服务 · 实时日志                   |
+|  [12/d]  运行环境诊断     检查依赖、状态文件与 sing-box 配置               |
+|  [x]     彻底卸载清理     销毁所有配置与系统服务                           |
+|  [0/q]   退出管理面板                                                      |
++----------------------------------------------------------------------------+
+|  ↑↓ 选择 · Enter 确认 · Esc 返回 · Q 退出                                  |
+|  快捷键 1-13 · r h t a p y i e n o s d w                                   |
++----------------------------------------------------------------------------+
+ 快捷命令: sbx [reality|hy2|tuic|anytls|argo|socks5|warp|all|subscription|export|rename|bbr]
+
